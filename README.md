@@ -1,6 +1,6 @@
 # php-fpm
 
 ```
-mkdir -p php-fpm && cd php-fpm
-echo '<?php phpinfo();?>' | tee index.php
+mkdir -p php-fpm
+echo '<?php phpinfo();?>' | tee php-fpm/index.php
 ```
